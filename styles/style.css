@@ -1,4 +1,39 @@
+/* Colors */
+:root{
+    --primary-color: #257D9B;
+    --secondary-color: #4C5B6B;
+    --third-color: #5B73A5;
+    --green-color: #24884D;
+}
+
+/* Style */
 body{
     margin: 0;
-    background-color: #257D9B;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: var(--green-color);
+    height: 60px;
+}
+
+main{
+    min-height: 100vh;
+}
+
+footer{
+    background-color: var(--third-color);
+    height: 21px;
+}
+
+.logo{
+    background-color: white;
+    margin-top: 14px;
+    margin-left: 14px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
